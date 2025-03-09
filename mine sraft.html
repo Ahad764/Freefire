@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Fan Page</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Set background to black */
+            color: white; /* Text color to white for contrast */
+            margin: 0;
+            padding: 0;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black header */
+            text-align: center;
+            padding: 20px;
+            animation: slideIn 1s ease-out;
+        }
+
+        /* Header Slide-in Effect */
+        @keyframes slideIn {
+            from {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 50px;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+            overflow: hidden;
+            animation: slideIn 1.5s ease-out;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover Effect on Navigation Links */
+        nav a:hover {
+            background-color: #575757;
+            transform: scale(1.1);
+        }
+
+        /* Content Section Styles */
+        .content {
+            padding: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeInContent 1s 1.5s forwards;
+        }
+
+        /* Fade-in Animation for Content */
+        @keyframes fadeInContent {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black footer */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Minecraft Pro Guide */
+        .guide-container {
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        li span {
+            font-weight: bold;
+        }
+
+        /* Animation for fade-in effect */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Video Section */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minecraft Fan Page</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">News</a>
+    <a href="#">Download</a>
+</nav>
+
+<div class="content">
+    <h2>Welcome to the Minecraft Official Fan Page</h2>
+    <p>Explore the world of Minecraft, with updates, news, and much more!</p>
+    <img src="freefire_image.jpg" alt="Minecraft Game" width="600">
+</div>
+
+<footer>
+    <p>© 2025 Minecraft Fan Page. All rights reserved.</p>
+</footer>
+
+<!-- Minecraft Pro Gameplay Video Section -->
+<div class="container">
+    <h1>Minecraft Pro Gameplay</h1>
+    <div class="video-container">
+        <iframe src="https://youtu.be/ZgEZhZf9WH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- Minecraft Pro Player Guide Section -->
+<div class="guide-container">
+    <h1>Becoming a Professional Minecraft Player</h1>
+    <ul>
+        <li><span>1. Choose Your Minecraft Playstyle:</span> Minecraft has different playstyles—whether it's Survival, Creative, Hardcore, or even Competitive PvP (e.g., Hypixel, The Bridge). Choose the one you're most passionate about and enjoy the most.</li>
+        <li><span>2. Set Clear Goals:</span> Define what "professional" means for you. Do you want to become a top PvP player? Compete in Minecraft Monday or other tournaments? Build incredible structures and get recognition? Break your goals into achievable short-term and long-term milestones.</li>
+        <li><span>3. Master the Basics:</span> Learn the fundamentals like resource gathering, crafting, building, redstone mechanics, and basic combat. Understand different game modes and mechanics in Minecraft to become well-rounded.</li>
+        <li><span>4. Consistent Practice:</span> Practice regularly to improve your skills. If you're into PvP, join servers like Hypixel and practice your combat mechanics. For building, challenge yourself with different styles and projects to refine your creativity.</li>
+        <li><span>5. Watch and Learn from the Pros:</span> Watch Minecraft tournaments, popular Minecraft streamers, or YouTube content creators. Learn strategies, building techniques, and how to handle in-game pressure. Participate in streams and events for more insights.</li>
+        <li><span>6. Compete in Tournaments and Leagues:</span> Start by participating in smaller Minecraft tournaments or community events. Gradually increase the scale of your competition to join big Minecraft tournaments like Minecraft Monday or Minecraft Championship (MCC).</li>
+        <li><span>7. Join or Form a Team:</span> Teamwork is essential in competitive Minecraft modes, especially in events like Minecraft Championship. Join or form a team to practice and compete together. Communication and coordination will improve your chances of success.</li>
+        <li><span>8. Focus on Mental and Physical Health:</span> Minecraft can be intense, especially in high-stakes competitions. Ensure you have mental clarity by managing your stress and emotions. Stay physically active to prevent fatigue during long gaming sessions.</li>
+        <li><span>9. Analyze and Improve:</span> Review your gameplay, whether it's PvP duels, Minecraft builds, or surviving in Hardcore mode. Look for areas to improve, whether it's your combat skills or how to use resources efficiently.</li>
+        <li><span>10. Network and Build Your Reputation:</span> Build a presence on platforms like YouTube, Twitch, or Twitter. Share your Minecraft achievements, builds, and accomplishments. Engaging with the Minecraft community and other players can help you gain recognition and sponsorships.</li>
+        <li><span>11. Stay Committed and Be Patient:</span> Progress can be slow, and Minecraft requires persistence and dedication. Stay committed, keep improving, and be patient with your growth as a professional player.</li>
+        <li><span>12. Consider Getting a Coach:</span> If possible, find a Minecraft coach or mentor to guide your progress, help refine your strategies, and provide professional advice for improving your skills.</li>
+    </ul>
+</div>
+
+</body>
+</html>
